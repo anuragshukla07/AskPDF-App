@@ -23,7 +23,7 @@ Clone the repositry then :
    pip install -r requirements.txt
    ```
 
-4. Run the Flask application:
+4. Run the Streamlit application:
    ```
-   python app.py
+   streamlit run app.py
    ```
