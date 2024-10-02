@@ -7,7 +7,7 @@ This app is built using:
 - **LangChain**: A library for building applications powered by language models.
 - **Groq LLM Model**: A high-performance model used to query and generate responses based on PDF content.
 
-## Live Project Link - 
+## Live Project Link
 [Live Project Link](https://askpdf-app.streamlit.app/)  
 
 ## Features
