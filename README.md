@@ -1,4 +1,4 @@
-# 🔗💬 LLM PDF Chat App
+# 🔗💬 AskPDF-App
 
 This project is a **PDF query bot** powered by **Language Learning Models (LLMs)**. Using the app, you can upload a PDF file and ask questions about its content. It processes the file using embeddings and FAISS for text search, combined with Groq's LLM model for answering queries.
 
