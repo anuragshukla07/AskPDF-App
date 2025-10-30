@@ -123,7 +123,7 @@ def main():
                 for attempt in range(max_retries):
                     try:
                         docs = st.session_state.vectorstore.similarity_search(query)
-                        llm = ChatGroq(groq_api_key=groq_api_key,model_name = 'llama-3.1-70b-versatile' , timeout = 60)
+                        llm = ChatGroq(groq_api_key=groq_api_key,model_name = 'llama-3.3-70b-versatile' , timeout = 60)
                         chain = load_qa_chain(llm,chain_type='stuff')
                         response = chain.run(input_documents=docs,question=query)
                         time.sleep(3)
